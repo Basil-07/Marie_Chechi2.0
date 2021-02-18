@@ -358,7 +358,6 @@ def __chat_settings__(chat_id, user_id):
 
 __help__ = """
  - /filters: list all active filters in this chat.
-
 *Admin only:*
  - /filter <keyword> <reply message>: add a filter to this chat. The bot will now reply that message whenever 'keyword'\
 is mentioned. If you reply to a sticker with a keyword, the bot will reply with that sticker. NOTE: all filter \
@@ -367,7 +366,6 @@ doin?
  - /stop <filter keyword>: stop that filter.
 *Chat creator only:*
  - /removeallfilters: Stop all filters in chat at once (Limited to creators only).
-
 """
 
 __mod_name__ = "Filters"
